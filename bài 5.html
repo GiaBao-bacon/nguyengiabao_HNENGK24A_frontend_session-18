@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let year = +prompt("mời nhập vào số năm kinh nghiệm: ");
+      if (year > 6) {
+        console.log(`Bạn là quản lí`);
+      } else if (year >= 4 && year <= 6) {
+        console.log(`Bạn là chuyên viên`);
+      } else if (year >= 1 && year <= 3) {
+        console.log(`Bạn là nhân viên có kinh nghiệm`);
+      } else {
+        console.log(`Bạn chỉ mới vào nghề`);
+      }
+    </script>
+  </body>
+</html>
