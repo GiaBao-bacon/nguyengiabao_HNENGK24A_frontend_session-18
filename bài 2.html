@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let x = parseFloat(prompt("Mời bạn nhập vào điểm toán"));
+      let y = parseFloat(prompt("Mời bạn nhập vào điểm văn"));
+      let z = parseFloat(prompt("Mời bạn nhập vào điểm anh"));
+      let number = (x + y + z) / 3;
+      if (number >= 8.5  && number <= 10) {
+        console.log("Bạn được học sinh giỏi");
+      } else if (number >= 6.5 && number < 8.5) {
+        console.log("Bạn được học sinh khá");
+      } else if (number  >= 5.5 && number  < 6.5) {
+        console.log("Bạn được học sinh trung bình ");
+      } else {
+        console.log("Bạn được học sinh yếu");
+      }
+    </script>
+  </body>
+</html>
